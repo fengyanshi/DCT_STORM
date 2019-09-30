@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    introduction
+   model
    maps
 
 Indices and tables
