@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Progress Report &#8212; DTC 0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Results" href="results.html" />
+    <link rel="prev" title="PROGRESS" href="maps.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="progress-report">
+<h1>Progress Report<a class="headerlink" href="#progress-report" title="Permalink to this headline">¶</a></h1>
+<p>Inundation due to sea level rise (SLR) in Delaware was mapped using bathtub modelling. A Lidar-based DEM of 10-meter spatial resolution was obtained from USGS, and clipped to the state boundary of DE. We extracted the mean values of SLR predicted for 2100 from the technical report developed by the Delaware Sea Level Rise Technical Committee, entitled “Recommendation of Sea-Level Rise Planning Scenarios for Delaware” (2017). This report recommended the use of probabilistic SLR values in DE based on Kopp et al. (2014) and suggested SLR values of 0.52 meters, 0.99 meters and 1.53 meters as low, medium, and high scenarios for inundation mapping. These values were applied to a bathtub model to estimate the extent of inundation caused by SLR in 2100. Our bathtub model thresholds the DEM to label elevations between present-day sea level and future sea level (i.e. the sum of present sea level and SLR) as inundation, while considering hydro-connectivity, so that low lying pixels are inundated only if they are connected to the shoreline or already inundated pixels. This process prevents low lying places that are landlocked with no connection to the coast from being labeled as inundated by simply DEM thresholding. The SLR inundation extent maps were used in conjunction with projected future population and urban land maps for estimating potential societal impacts of SLR at the end of the century.</p>
+<p>The impacts of Sea Level Rise (SLR) and coastal storms on local transportation in Delaware were studied using numerical models with the LiDAR-based Digital Elevation Model (DEM). The inundated areas associated with SLR and 100-year storm were evaluated by the bathtub method in the entire Delaware domain. A detailed high- resolution simulation was focused on the City of Wilmington and its suburban area, including the complex highway network. Figure 1 demonstrates the result of inundation depth from the SLR scenario of 2100 (Kopp et al., 2014) with a 100-year storm (Hansen et al., 2013). The white lines represent shorelines from the bathtub model with SLR 2100 95% high level. The color bar denotes the maximum inundation depth during the 100- year storm. The storm impact on transportation in the Wilmington region will be further investigated based on time series of flooding and draining processes.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">DTC</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html"><strong>INTRODUCTION</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="model.html"><strong>MODELING EXTREME EVENTS</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="maps.html"><strong>PROGRESS</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Progress Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="results.html">Results</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="maps.html"><strong>PROGRESS</strong></a><ul>
+      <li>Previous: <a href="maps.html" title="previous chapter"><strong>PROGRESS</strong></a></li>
+      <li>Next: <a href="results.html" title="next chapter">Results</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, FengyanShi.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/reports.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
