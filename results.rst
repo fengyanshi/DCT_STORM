@@ -7,10 +7,10 @@ Results
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0uQakhQhVfw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="720" height="410" src="https://www.youtube.com/embed/0uQakhQhVfw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XKoE49CbvYs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="720" height="410" src="https://www.youtube.com/embed/XKoE49CbvYs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
